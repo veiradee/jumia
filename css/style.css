@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.phones{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+.phones div{
+    width: 22%;
+    height: 70%;
+    margin-top: 10%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phone div{
+    width: 22%;
+    height: 70%;
+    margin-top: 10%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phones img{
+    width: 90%;
+    height: 80%;
+}
+.phone img{
+    width: 90%;
+    height: 80%;
+}
+#original1, #original2, #original3, #original4{
+    text-decoration: line-through;
+    color: gray;
+}
+#name1, #name2, #name3, #name4{
+    color: gray;   
+}
+#location, #qnty{
+    height: 4%;
+    width: 10%;
+}
